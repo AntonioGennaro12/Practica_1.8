@@ -16,7 +16,7 @@ console.log(("joel" != "Joel") && !('!"$:;14;' != "123qwerty")); /* niego la 2da
 console.log("Verfico Edad usando if y else fuera del console.log"); 
 const EDAD_MINIMA = 18;
 const EDAD_MAXIMA = 100;  /* Debe ser menor que este número */  
-let edadUsuarioIngresado = 23;
+let edadUsuarioIngresado = 25;
 if((edadUsuarioIngresado >= EDAD_MINIMA) && (edadUsuarioIngresado < EDAD_MAXIMA)) {
     console.log ("Edad de Usuario Válida!!"); }
 else {
